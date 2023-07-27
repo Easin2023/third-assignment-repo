@@ -74,7 +74,13 @@ background: linear-gradient(180deg, #121212 0%, rgba(18, 18, 18, 0.00) 100%), ur
                     <a class="btn btn-ghost normal-case lg:text-4xl text-white font-bold ">Fruit Burst</a>
                   </div>
                 <div class="navbar-end  flex-1">
-                        <input type="text" placeholder="Search" class="input input-bordered md:w-auto lg:pr-40 rounded-full mr-8" />
+                  <!-- <input type="text" placeholder="Search" class="input input-bordered md:w-auto lg:pr-40 rounded-full mr-8"/> -->
+                    <div class="relative text-gray-600 focus-within:text-gray-400">
+                      <span class="absolute inset-y-0 left-0 flex items-center pl-2">
+                        <i class="fa-solid fa-magnifying-glass lg:pl-[300px]"></i>
+                      </span>
+                      <input type="text" placeholder="Search" class="input input-bordered md:w-auto lg:pr-40 rounded-full mr-8"/>
+                    </div>
                 </div>
               </div>
         </nav>
@@ -129,12 +135,55 @@ background: linear-gradient(180deg, #121212 0%, rgba(18, 18, 18, 0.00) 100%), ur
             </div>
           </div>
         </div>
+        <section class="lg:w-[1200px] mx-auto shadow-md">
+          <div class="flex flex-row  static">
+            <div class="card w-96">
+              <figure class="px-10 pt-10">
+                <img src="./images/fruit1.png" alt="Shoes" class="rounded-xl" />
+              </figure>
+              <div class="card-body items-center text-center">
+                <h2 class="card-title">Strawberry</h2>
+              </div>
+            </div>
+            <div class="card w-96">
+              <figure class="px-10 pt-10">
+                <img src="./images/fruit2.png" alt="Shoes" class="rounded-xl" />
+              </figure>
+              <div class="card-body items-center text-center">
+                <h2 class="card-title">Orange</h2>
+              </div>
+            </div>
+            <div class="card w-96">
+              <figure class="px-10 pt-10">
+                <img src="./images/fruit3.png" alt="Shoes" class="rounded-xl" />
+              </figure>
+              <div class="card-body items-center text-center">
+                <h2 class="card-title">Mango</h2>
+              </div>
+            </div>
+            <div class="card w-96">
+              <figure class="px-10 pt-10">
+                <img src="./images/fruit4.png" alt="Shoes" class="rounded-xl" />
+              </figure>
+              <div class="card-body items-center text-center">
+                <h2 class="card-title">Strawberry</h2>
+              </div>
+            </div>
+            <div class="card w-96">
+              <figure class="px-10 pt-10">
+                <img src="./images/fruit5.png" alt="Shoes" class="rounded-xl" />
+              </figure>
+              <div class="card-body items-center text-center">
+                <h2 class="card-title">Mango</h2>
+              </div>
+            </div>
+          </div>
+        </section>
     </header>
     <main class="container mx-auto">
       <!-- dale of day  -->
       <section class="mt-64">
         <div class="flex flex-col text-center lg:flex-row items-center lg:justify-between  lg:text-left">
-
           <div>
             <h1 class="text-5xl font-extrabold">Deal of the day</h1>
             <p class="font-medium pt-6">Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.</p>
